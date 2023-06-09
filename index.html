@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Hero Section</title>
+</head>
+<body>
+<footer>
+    <h3>Bedankt voor het lezen van dit recept. laat ons weten wat je ervan vond!</h3>
+    <form action="http://www.voorbeeld.nl/review.php">
+        <fieldset class="fieldset-class">
+            <legend>Gegevens</legend>
+            <label for="name">
+                Naam:
+                <input class="input-class" type="text" id="name">
+            </label>
+            <label for="email">
+                Email:
+                <input class="input-class" type="text" id="email">
+            </label>
+        </fieldset>
+        <fieldset class="fieldset-class">
+            <legend>Jouw review</legend>
+            <label for="source-found">
+                Hoe heb je dit recept gevonden?
+                <select class="spacing-class" name="source-found" id="source-found">
+                    <option value="Anders">Anders</option>
+                    <option value="Google">Google</option>
+                    <option value="Vriend">Vriend</option>
+                    <option value="Kookworkshop">Kookworkshop</option>
+                    <option value="Receptenboek">Receptenboek</option>
+                </select>
+            </label>
+            <p>Zou je dit recept willen uitproberen?</p>
+            <label>
+                <input class="spacing-class" type="radio" name="rating" value="Nee">
+                Nee
+            </label>
+            <label>
+                <input type="radio" name="rating" value="Ja" >
+                Ja
+            </label>
+            <label>
+                <input type="radio" name="rating" value="Misschien">
+                Misschien
+            </label>
+            <label for="field-comments">
+                Opmerkingen
+                <br />
+                <textarea type="text" id="field-comments" name="Opmerkingen" rows="4" cols="40" placeholder="Wat vond je van het recept?"></textarea>
+            </label>
+            <br />
+            <label for="field-newsletter">
+                <input type="checkbox" name="subscribe" id="field-newsletter"
+                       checked />
+                Schrijf me in voor de nieuwsbrief
+            </label>
+            <button class=" button-class-primary" type="submit">Versturen</button>
+            <button class="button-class" type="reset">Reset</button>
+        </fieldset>
+    </form>
+</footer>
+</body>
+</html>

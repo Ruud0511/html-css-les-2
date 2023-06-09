@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*
+Table of contents:
+    1. Global Styles
+    2. Typography
+    3. Utility
+    4. Areas
+    5. Components
+        5.1 Button
+        5.2 Input
+*/
+
+/*
+    1. Global Styles
+ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ededed;
+    font-size: 16px;
+}
+
+/*
+    2. Typography
+ */
+
+h1,
+h2,
+h3 {
+    font-family: 'Georgia', Serif;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+
+}
+
+p,
+link,
+label,
+input,
+button,
+select,
+option,
+legend {
+    font-family: 'poppins', sans-serif;
+}
+
+/*
+    3. Utility
+ */
+
+.spacing-class {
+    margin-bottom: 16px;
+}
+
+.debug-class {
+    border: 2px solid red;
+}
+
+/*
+    4. Areas
+ */
+
+footer  {
+    margin: 2em;
+}
+
+.fieldset-class {
+    background-color: #d7d6d6;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 360px;
+}
+
+.fieldset-class legend {
+    background-color: black;
+    color: #fff;
+    padding: 4px 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.button-class {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px 16px;
+}
+
+.button-class-primary {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 16px;
+}
+
+button + button {
+    margin-left: 16px;
+}
+
+.input-class {
+    width: 100%;
+    display: block;
+}
+
+/*
+5. Components
+        5.1 Button
+        5.2 Input
+ */
